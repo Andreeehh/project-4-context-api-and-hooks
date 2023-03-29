@@ -16,7 +16,7 @@ export const Home = () => {
     <div>
       <Heading />
       <div>
-        {/* caso nao precise de parametros, pode passar o nome da função direta */}
+        {/* caso nao precise de parâmetros, pode passar o nome da função direta */}
         <Button onButtonClicked={actions.increase}>Increase</Button>
         <Button onButtonClicked={() => actions.decrease()}>Decrease</Button>
         <Button onButtonClicked={actions.reset}>Reset</Button>
